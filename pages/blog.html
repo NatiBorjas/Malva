@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  Tipografía  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <!--  CSS  -->
+    <link rel="stylesheet" href="../css/main.css">
+    <!--  Título  -->
+    <title>Malva-Articulos</title>
+</head>
+
+<body>
+    <!-- Menu superior siempre visible en todas las paginas -->
+    <div class=nav>
+        <div id="logo-vero">
+            <a href="../index.html"><img src="../public/img/Logo.PNG" alt="logo-vero"></a>
+        </div>
+        <div id="nav-menu">
+            <ul>
+                <li>
+                    <a class="links" href="../index.html">Home</a>
+                </li>
+        
+                <li>
+                    <a class="links" href="sobremi.html">Sobre mí</a>
+                </li>
+        
+                <li>
+                    <a class="links" href="recursosgratis.html">Recursos gratis</a>
+                </li>
+        
+                <li>
+                    <a class="links" href="tienda.html">Tienda</a>
+                </li>
+
+                <li>
+                    <form id="form">
+                        <input type="search" id="query" placeholder="Buscar...">
+                        <button>Buscar</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="grid">
+        <!-- Contenido principal -->
+        <main>
+            <div>
+                <img id="foto-articulo" src="../public/img/tejer_publico.jpg" alt="clase de tejido publico">
+                <h2>Día de tejer en público, Coruña</h2>
+                <p class="texto">
+                    <span class="cursiva">«Se trata de visibilizar el tejido como un oficio artesano y al mismo tiempo volver a la calle y crear lugares de encuentro donde hacer cosas juntos»</span>, explica Verónica Novoa, una argentina afincada desde hace 15 años en Galicia que da clases del sinfín de variedades del tejer y hace cuatro años decidió impulsar el movimiento en la ciudad. Ayer, rodeada de una docena de mujeres y un hombre, inauguró un encuentro mensual para tejer, cada segundo sábado, en un rincón del bar Ledicia, Orzán 178. <br>
+                    Allí fueron llegando con sus lanas, agujas y proyectos a medio acabar, desde el jersey sin costuras calcetado con agujas circulares por Paloma, que recordó la reconversión en Vigo, su tío despedido y su tía y su prima tejiendo ropita de niño para salir adelante, al patrón de calcetín de Álvaro, informático y tejedor iniciado en la niñez por su abuela -las madres no enseñan mucho, dice alguien, siempre acaban haciéndolo ellas-, o el cuadrado-mantita de ganchillo de Sabina que señala las virtudes del tejido para la psicomotrocidad fina tan decisiva en los primeros y últimos años de la vida. <br>
+                    Algunas aprendieron malamente en Internet y agradecen la reunión para intercambiar y resolver problemas con Verónica. Carmen hace su primera cadeneta, el primer collar de ganchillo que tuvo Maou, el perro de Álvaro, y Celina teje una zapatilla de trapillo mientras cuenta las clases de punto y piano que su madre, «maestra hogarista», impartía en una escuela para mujeres en Cuba. A Vanesa le enseñó a tejer Ramón Santos, un maestro. Sabe de lanas, calidades y resultados. <span class="cursiva">«Calcetar es como meditar»</span>, explica Liliana, la atención plena en lo que uno tiene entre manos. Miriam está descubriendo un talento oculto, dice Verónica que <span class="cursiva">«es raro que alguien le coja el tranquillo con tanta facilidad»</span>. Laura aprendió con su madre hace décadas y ahora quiere hacer un gorro. <br>
+                </p>
+            </div>
+        </main>
+        <!-- Menu a la derecha-->
+        <aside>
+            <div class="item-menu-der centrado about">
+                <p>Malva nace como proyecto de unificar a emprendedorxs y artistas textiles, así tambien como medio de divulgación de recursos y novedades del mundo textil. <br>
+                Bienvenidxs
+                </p>
+            </div>
+
+            <div class="item-menu-der centrado formulario">
+                <div id="suscripcion">
+                    <p>
+                    Suscríbete a nuestra newsletter para mantenerte informadx respecto al mundo de la artesanía textil! 
+                    </p>
+                    <form action="" method="post">
+                        <input type="text" name="fnombre" placeholder="Nombre">
+                        <input type="email" name="fmail" placeholder="Direción de correo">
+                        <div id="terminos-condiciones">
+                            <input type="checkbox" name="aceptar-terminos">
+                            <label for="aceptar-terminos">Acepto los términos y condiciones</label>
+                            <button type="submit"> Suscríbete</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="item-menu-der mas-leidos">
+                <h4>Posts mas leidos</h4>
+                    <ol>
+                        <li> <a class="links" href="blog.html">Día de tejer en público, Coruña</a> 
+                        </li>
+                        <li>Articulo 1</li>
+                        <li>Articulo 2</li>
+                        <li>Articulo 3</li>
+                    </ol>
+            </div>
+                
+            <div class="item-menu-der categorias">
+                <h4>Categorías</h4>
+                    <ul>
+                        <li>Artistas textiles</li>
+                        <li>Bordado</li>
+                        <li>Tejido</li>
+                        <li>Eventos</li>
+                        <li>novedades</li>
+                    </ul>
+            </div>
+        </aside>
+        <!-- Footer -->
+        <footer>
+            <div class="redes-sociales">
+                <a href="https://www.instagram.com/veronovoa__/" target="_blank">
+                    <img class="logos" src="../public/img/logo-ig.png" alt="logo instagram">
+                </a>
+                <a href="https://www.facebook.com/veronovoatextil" target="_blank">
+                    <img class="logos" src="../public/img/logo-fb.png" alt="logo facebook">
+                </a>
+                <a href="mailto: hola@veronovoa.es">
+                    <img class="logos" src="../public/img/logo-mail.png" alt="logo correo">
+                </a>
+            </div>
+            <div>
+                <h5>Términos y condiciones - 2021 © Todos los derechos reservados</h5>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
