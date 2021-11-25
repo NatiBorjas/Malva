@@ -12,9 +12,12 @@
   justify-content: space-around; }
 
 .move {
+  height: 200px;
+  width: 200px;
   transition: all .2s ease-in-out; }
-  .move :hover {
-    transform: scale(1.5); }
+
+.move:hover {
+  transform: scale(120%); }
 
 table {
   border: 2px solid black;
@@ -75,7 +78,6 @@ main {
   .nav li {
     font-size: 20px;
     font-weight: bold;
-    color: #1d1d1b;
     display: inline-block;
     text-align: center;
     list-style-type: none;
@@ -102,8 +104,11 @@ aside {
 .item-menu-der {
   border: 1px solid black;
   padding: 5px 15px;
-  background-color: #f6c270;
+  background-color: #A2B4C0;
   border-collapse: collapse; }
+
+ol {
+  text-decoration: none; }
 
 #terminos-condiciones {
   padding-top: 10px;
@@ -120,6 +125,9 @@ footer {
   width: 100%;
   background-color: #703757;
   padding-top: 10px; }
+
+ul li {
+  display: inline-block; }
 
 .logos {
   height: 30px;

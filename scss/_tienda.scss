@@ -12,8 +12,10 @@
     justify-content: space-around;
 }
 .move{
+    height: 200px;
+    width: 200px;
     transition: all .2s ease-in-out;
-    :hover {
-        transform: scale(1.5);
-    }
+}
+.move:hover {
+    transform: scale(120%);
 }
