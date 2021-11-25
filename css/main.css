@@ -81,9 +81,9 @@ main {
     display: inline-block;
     text-align: center;
     list-style-type: none;
-    padding: 10px 10px; }
-    .nav li :hover {
-      background: #ECC3C1; }
+    padding: 20px 20px; }
+  .nav li:hover {
+    background: #ECC3C1; }
 
 /*======================*/
 /* Contenido Principal */
