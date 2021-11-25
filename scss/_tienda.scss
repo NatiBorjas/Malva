@@ -1,0 +1,19 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lista-cursos{
+    width: 1000px;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+.move{
+    transition: all .2s ease-in-out;
+    :hover {
+        transform: scale(1.5);
+    }
+}

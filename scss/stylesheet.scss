@@ -1,15 +1,110 @@
-/*============*/
-/* body reset */
-/*============*/
+@import "tienda";
+@import "recursos";
+@import "blog";
+
+
+/*======================*/
+/*      Body reset      */
+/*======================*/
 body{
     background-color: #ecc3c1;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
-
+/*======================*/
+/*  Estructura general  */
+/*======================*/
+.grid{
+    display: inline-grid;
+    grid-template-areas: 
+    "main side"
+    "footer footer";
+    grid-template-columns: 70vw 25vw;  
+    margin-top: 80px;
+}
 ul{
     list-style-type: none;
     a {
         text-decoration: none;      
     }
+}
+main{
+    grid-area: main;
+    padding: 25px;
+}
+.texto{
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.centrado{
+    text-align: center;
+}
+/*======================*/
+/*    Menu Navegador    */
+/*======================*/
+.nav {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    overflow: hidden;
+    background-color: #703757;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    li{
+        font-size: 20px;
+        font-weight: bold;
+        color: #1d1d1b;
+        display: inline-block;
+        text-align: center;
+        list-style-type: none;
+        padding: 10px 10px;
+        :hover {
+            background: #ECC3C1;
+        }
+    }
+}
+/*======================*/
+/* Contenido Principal */
+/*======================*/
+main{
+    grid-area: main;
+    padding: 25px;
+}
+/*======================*/
+/*   Menu a la derecha  */
+/*======================*/
+aside{
+    grid-area: side;
+    display: grid;
+    padding: 35px;
+    align-items: center;
+}
+.item-menu-der{
+    border: 1px solid black;
+    padding: 5px 15px;
+    background-color: #f6c270;
+    border-collapse: collapse;
+}
+#terminos-condiciones{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+/*======================*/
+/*        Footer        */
+/*======================*/
+footer{
+    grid-area: footer;
+    overflow: hidden;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    background-color: #703757;
+    padding-top: 10px;
+}
+.logos{
+    height: 30px;
+    width: 30px;
+    text-decoration: none;
 }
