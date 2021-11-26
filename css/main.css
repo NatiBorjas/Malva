@@ -82,8 +82,13 @@ main {
     text-align: center;
     list-style-type: none;
     padding: 20px 20px; }
+    .nav li a:link, .nav li a:visited {
+      color: #1D1D1B; }
   .nav li:hover {
     background: #ECC3C1; }
+
+#logo-vero {
+  margin-top: 5px; }
 
 /*======================*/
 /* Contenido Principal */

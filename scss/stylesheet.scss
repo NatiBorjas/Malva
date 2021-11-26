@@ -59,10 +59,18 @@ main{
         text-align: center;
         list-style-type: none;
         padding: 20px 20px;
+
+        a:link, a:visited {
+            color: #1D1D1B
+        }
     }
     li:hover {
         background: #ECC3C1;
     }
+}
+
+#logo-vero {
+    margin-top: 5px;
 }
 
 /*======================*/
