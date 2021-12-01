@@ -7,12 +7,15 @@
 /*      Body reset      */
 /*======================*/
 body{
-    background-color: #ecc3c1;
+    background-color: #F6F1EE;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-
     a{
-        text-decoration: none;    
+        text-decoration: none;
+        font-weight: bold;   
+        &:link, &:visited{
+            color: #343A5A    
+        }
     }
 }
 /*======================*/
@@ -21,6 +24,7 @@ body{
 .grid{
     display: inline-grid;
     grid-template-areas: 
+    "main side"
     "main side"
     "main side"
     "footer footer";
@@ -63,15 +67,14 @@ main{
         padding: 20px 20px;
 
         &:hover {
-            background: #ECC3C1;
+            background: #1D1D1B;
         }
 
         a:link, a:visited {
-            color: #1D1D1B
+            color: #ECC3C1
         }
     }
 }
-
 #logo-vero {
     margin-top: 5px;
 }
@@ -88,22 +91,24 @@ main{
 /*======================*/
 aside{
     grid-area: side;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     padding: 35px;
-    align-items: center;
 }
 .item-menu-der{
     border: 1px solid black;
-    padding: 5px 15px;
-    background-color: #A2B4C0;
+    padding: 10px 15px;
+    background-color: #ECC3C1;
     border-collapse: collapse;
+    flex: 1 1 auto;
 }
 ol{
     text-decoration: none;
 }
 #terminos-condiciones{
     padding-top: 10px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 /*======================*/
 /*        Footer        */
@@ -117,10 +122,8 @@ footer{
     background-color: #703757;
     padding-top: 10px;
 }
-ul{
-    li{
-        display: inline-block;
-    }
+.redes-sociales{
+    display: inline-block;
 }
 .logos{
     height: 30px;
