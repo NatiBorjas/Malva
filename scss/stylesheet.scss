@@ -10,6 +10,10 @@ body{
     background-color: #ecc3c1;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
+
+    a{
+        text-decoration: none;    
+    }
 }
 /*======================*/
 /*  Estructura general  */
@@ -25,9 +29,6 @@ body{
 }
 ul{
     list-style-type: none;
-    a {
-        text-decoration: none;      
-    }
 }
 main{
     grid-area: main;
@@ -61,12 +62,13 @@ main{
         list-style-type: none;
         padding: 20px 20px;
 
+        &:hover {
+            background: #ECC3C1;
+        }
+
         a:link, a:visited {
             color: #1D1D1B
         }
-    }
-    li:hover {
-        background: #ECC3C1;
     }
 }
 
