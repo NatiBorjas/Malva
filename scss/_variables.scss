@@ -1,5 +1,13 @@
-/*======================*/
-/*      VARIABLES      */
-/*======================*/
+$border-tb: 2px solid black;
+$border-tb-in: 1px solid black;
+$negrita: bold;
+$centrado: center;
+$back-color: #ECC3C1;
 
-$border: 1px solid black;
+$item-flex: 1 1 auto;
+
+@mixin flex {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: stretch;
+}

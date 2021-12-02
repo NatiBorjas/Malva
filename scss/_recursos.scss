@@ -2,10 +2,12 @@
 /*       RECURSOS       */
 /*======================*/
 table{
-    border: 2px solid black;
-    border-collapse: separate;
+    border: $border-tb;
+    border-collapse: collapse;
+    th{
+    border: $border-tb; 
+    }
     tr, td {
-        border: $border;
-        border-collapse: collapse; 
+        border: $border-tb-in;
     }
 }

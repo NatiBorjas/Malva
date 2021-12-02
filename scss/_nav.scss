@@ -1,0 +1,40 @@
+/*======================*/
+/*    Menu Navegador    */
+/*======================*/
+.nav {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    overflow: hidden;
+    background-color: #703757;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    li{
+        font-size: 20px;
+        font-weight: $negrita;
+        display: inline-block;
+        text-align: $centrado;
+        list-style-type: none;
+        padding: 20px 20px;
+
+        &:hover {
+            background: #1D1D1B;
+        }
+
+        a:link, a:visited {
+            color: $back-color;
+        }
+    }
+}
+#logo-vero {
+    margin-top: 5px;
+}
+#boton-buscar{
+    background-color: $back-color;
+}
+#query{
+    width: 200px;
+    margin-right: 5px;
+}

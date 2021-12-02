@@ -1,0 +1,38 @@
+/*======================*/
+/*   Menu a la derecha  */
+/*======================*/
+aside{
+    @include flex;
+    grid-area: side;
+    padding: 35px;
+}
+ol{
+    text-decoration: none;
+}
+.item-menu-der{
+    border: $border-tb-in;
+    padding: 10px 15px;
+    background-color: $back-color;
+    border-collapse: collapse;
+    flex: $item-flex;
+}
+.input-news{
+    width: 200px;
+    flex: $item-flex;
+}
+#suscripcion{
+    justify-content: $centrado;
+}
+#terminos-condiciones{
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#formulario{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: $centrado;
+}
+#boton-suscribir{
+    background-color: #F6F1EE;
+    border-color: #C27F88;
+}

@@ -1,44 +1,4 @@
 /*======================*/
-/*        TIENDA        */
-/*======================*/
-.flex {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
-
-.lista-cursos {
-  width: 1000px;
-  list-style-type: none;
-  display: flex;
-  flex-flow: row wrap;
-  text-align: center;
-  justify-content: space-around; }
-
-.move {
-  height: 200px;
-  width: 200px;
-  transition: all .2s ease-in-out; }
-
-.move:hover {
-  transform: scale(120%); }
-
-/*======================*/
-/*       RECURSOS       */
-/*======================*/
-table {
-  border: 2px solid black;
-  border-collapse: collapse; }
-  table th, table tr, table td {
-    border: 1px solid black;
-    border-collapse: collapse; }
-
-/*======================*/
-/*         BLOG         */
-/*======================*/
-.cursiva {
-  font-style: italic; }
-
-/*======================*/
 /*      Body reset      */
 /*======================*/
 body {
@@ -73,6 +33,33 @@ main {
 
 .centrado {
   text-align: center; }
+
+/*======================*/
+/* Contenido Principal */
+/*======================*/
+main {
+  grid-area: main;
+  padding: 25px; }
+
+/*======================*/
+/*        Footer        */
+/*======================*/
+footer {
+  grid-area: footer;
+  overflow: hidden;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  background-color: #703757;
+  padding-top: 10px; }
+
+.redes-sociales {
+  display: inline-block; }
+
+.logos {
+  height: 30px;
+  width: 30px;
+  text-decoration: none; }
 
 /*======================*/
 /*    Menu Navegador    */
@@ -110,20 +97,13 @@ main {
   margin-right: 5px; }
 
 /*======================*/
-/* Contenido Principal */
-/*======================*/
-main {
-  grid-area: main;
-  padding: 25px; }
-
-/*======================*/
 /*   Menu a la derecha  */
 /*======================*/
 aside {
-  grid-area: side;
   display: flex;
   flex-flow: column wrap;
   align-items: stretch;
+  grid-area: side;
   padding: 35px; }
 
 ol {
@@ -157,21 +137,42 @@ ol {
   border-color: #C27F88; }
 
 /*======================*/
-/*        Footer        */
+/*        TIENDA        */
 /*======================*/
-footer {
-  grid-area: footer;
-  overflow: hidden;
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.lista-cursos {
+  width: 1000px;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
   text-align: center;
-  bottom: 0;
-  width: 100%;
-  background-color: #703757;
-  padding-top: 10px; }
+  justify-content: space-around; }
 
-.redes-sociales {
-  display: inline-block; }
+.move {
+  height: 200px;
+  width: 200px;
+  transition: all .2s ease-in-out; }
 
-.logos {
-  height: 30px;
-  width: 30px;
-  text-decoration: none; }
+.move:hover {
+  transform: scale(120%); }
+
+/*======================*/
+/*       RECURSOS       */
+/*======================*/
+table {
+  border: 2px solid black;
+  border-collapse: collapse; }
+  table th {
+    border: 2px solid black; }
+  table tr, table td {
+    border: 1px solid black; }
+
+/*======================*/
+/*         BLOG         */
+/*======================*/
+.cursiva {
+  font-style: italic; }

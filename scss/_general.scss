@@ -1,0 +1,71 @@
+/*======================*/
+/*      Body reset      */
+/*======================*/
+body{
+    background-color: #F6F1EE;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    a{
+        text-decoration: none;
+        font-weight: $negrita;   
+        &:link, &:visited{
+            color: #343A5A    
+        }
+    }
+}
+/*======================*/
+/*  Estructura general  */
+/*======================*/
+.grid{
+    display: inline-grid;
+    grid-template-areas: 
+    "main side"
+    "main side"
+    "main side"
+    "footer footer";
+    grid-template-columns: 70vw 25vw;  
+    margin-top: 80px;
+}
+ul{
+    list-style-type: none;
+}
+main{
+    grid-area: main;
+    padding: 25px;
+}
+.texto{
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.centrado{
+    text-align: $centrado;
+}
+
+/*======================*/
+/* Contenido Principal */
+/*======================*/
+main{
+    grid-area: main;
+    padding: 25px;
+}
+
+/*======================*/
+/*        Footer        */
+/*======================*/
+footer{
+    grid-area: footer;
+    overflow: hidden;
+    text-align: $centrado;
+    bottom: 0;
+    width: 100%;
+    background-color: #703757;
+    padding-top: 10px;
+}
+.redes-sociales{
+    display: inline-block;
+}
+.logos{
+    height: 30px;
+    width: 30px;
+    text-decoration: none;
+}
