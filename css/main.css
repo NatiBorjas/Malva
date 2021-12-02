@@ -102,6 +102,13 @@ main {
 #logo-vero {
   margin-top: 5px; }
 
+#boton-buscar {
+  background-color: #ECC3C1; }
+
+#query {
+  width: 200px;
+  margin-right: 5px; }
+
 /*======================*/
 /* Contenido Principal */
 /*======================*/
@@ -115,9 +122,12 @@ main {
 aside {
   grid-area: side;
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   align-items: stretch;
   padding: 35px; }
+
+ol {
+  text-decoration: none; }
 
 .item-menu-der {
   border: 1px solid black;
@@ -126,12 +136,25 @@ aside {
   border-collapse: collapse;
   flex: 1 1 auto; }
 
-ol {
-  text-decoration: none; }
+.input-news {
+  width: 200px;
+  flex: 1 1 auto; }
+
+#suscripcion {
+  justify-content: center; }
 
 #terminos-condiciones {
   padding-top: 10px;
   padding-bottom: 5px; }
+
+#formulario {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center; }
+
+#boton-suscribir {
+  background-color: #F6F1EE;
+  border-color: #C27F88; }
 
 /*======================*/
 /*        Footer        */
