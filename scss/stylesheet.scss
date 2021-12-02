@@ -1,3 +1,4 @@
+@import "variables";
 @import "tienda";
 @import "recursos";
 @import "blog";
@@ -106,7 +107,7 @@ ol{
     text-decoration: none;
 }
 .item-menu-der{
-    border: 1px solid black;
+    border: $border;
     padding: 10px 15px;
     background-color: #ECC3C1;
     border-collapse: collapse;
