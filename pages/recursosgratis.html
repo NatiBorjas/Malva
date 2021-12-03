@@ -31,36 +31,43 @@
 </head>
 
 <body>
-    <!-- Menu superior siempre visible en todas las paginas -->
-    <div class="nav navbar-collapse">
-        <div id="logo-vero">
-            <a href="../index.html"><img src="../public/img/Logo.PNG" alt="logo-vero"></a>
-        </div>
-        <div id="nav-menu">
-            <ul>
-                <li>
-                    <a class="links" href="../index.html">Home</a>
-                </li>
-        
-                <li>
-                    <a class="links" href="sobremi.html">Sobre mí</a>
-                </li>
-        
-                <li>
-                    <a class="links" href="recursosgratis.html">Recursos gratis</a>
-                </li>
-        
-                <li>
-                    <a class="links" href="tienda.html">Tienda</a>
-                </li>
+    <!-- Menu superior siempre visible en todas las paginas -->    
+    <div class="navbar navbar-expand-xl navbar-dark">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <a href="../index.html"><img src="../public/img/Logo.PNG" alt="logo-vero"></a>
+            </div>
 
-                <li>
-                    <form id="form">
-                        <input class="rounded-3" type="search" id="query" placeholder="Buscar...">
-                        <button class="border-0 rounded-3 px-3" id="boton-buscar">Buscar</button>
-                    </form>
-                </li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse show" id="navbar-menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link links" href="../index.html">Home</a>
+                        </li>
+                
+                        <li class="nav-item">
+                            <a class="nav-link links" href="sobremi.html">Sobre mí</a>
+                        </li>
+                
+                        <li class="nav-item">
+                            <a class="nav-link links" href="recursosgratis.html">Recursos gratis</a>
+                        </li>
+                
+                        <li class="nav-item">
+                            <a class="nav-link links" href="tienda.html">Tienda</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <form>
+                                <input class="rounded-3" type="search" id="query" placeholder="Buscar...">
+                                <button class="border-0 rounded-3 px-3" id="boton-buscar">Buscar</button>
+                            </form>
+                        </li>
+                    </ul>
+            </div>
         </div>
     </div>
 

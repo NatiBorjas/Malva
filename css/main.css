@@ -64,7 +64,7 @@ footer {
 /*======================*/
 /*    Menu Navegador    */
 /*======================*/
-.nav {
+.navbar {
   display: flex;
   justify-content: space-around;
   position: fixed;
@@ -74,20 +74,17 @@ footer {
   left: 0;
   top: 0;
   width: 100%; }
-  .nav li {
+  .navbar li {
     font-size: 20px;
     font-weight: bold;
     display: inline-block;
     text-align: center;
     list-style-type: none;
-    padding: 20px 20px; }
-    .nav li:hover {
+    padding: 10px 10px; }
+    .navbar li:hover {
       background: #1D1D1B; }
-    .nav li a:link, .nav li a:visited {
+    .navbar li a:link, .navbar li a:visited {
       color: #ECC3C1; }
-
-#logo-vero {
-  margin-top: 5px; }
 
 #boton-buscar {
   background-color: #ECC3C1; }
