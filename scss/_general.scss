@@ -60,7 +60,7 @@ footer{
     overflow: hidden;
     text-align: $centrado;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     background-color: #703757;
     padding-top: 10px;
 }
@@ -73,10 +73,3 @@ footer{
     text-decoration: none;
 }
 
-/*======================*/
-/*        Queries       */
-/*======================*/
-
-// @media (min-width: 320px) {
-//     body
-// }
