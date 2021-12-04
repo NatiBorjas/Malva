@@ -4,8 +4,8 @@
 
 @media (max-width: 320px) {
     .grid{
-        display: flex;
-        flex-flow: column wrap;
+        display: grid;
+        grid-area: auto;
     }
     footer{
         width: auto;
