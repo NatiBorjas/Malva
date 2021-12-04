@@ -16,7 +16,10 @@ body {
 /*======================*/
 .grid {
   display: inline-grid;
-  grid-template-areas: "main side" "main side" "main side" "footer footer";
+  grid-template-areas: "main side"
+ "main side"
+ "main side"
+ "footer footer";
   grid-template-columns: 70vw 30vw;
   margin-top: 80px; }
 
