@@ -1,0 +1,13 @@
+/*======================*/
+/*   Query  320px     */
+/*======================*/
+
+@media (max-width: 320px) {
+    .grid{
+        display: flex;
+        flex-flow: column wrap;
+    }
+    footer{
+        width: auto;
+    }
+}
