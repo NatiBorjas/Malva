@@ -2,12 +2,12 @@
 /*   Query  320px     */
 /*======================*/
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .grid{
-        display: flex;
-        flex-flow: column wrap;
+        grid-template-areas: 
+        "main"
+        "side"
+        "footer";
+        grid-template-columns: 100vw;
+        }
     }
-    footer{
-        width: auto;
-    }
-}

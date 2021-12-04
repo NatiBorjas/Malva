@@ -1,4 +1,12 @@
 /*======================*/
+/*   Query  320px     */
+/*======================*/
+@media screen and (max-width: 320px) {
+  .grid {
+    grid-template-areas: "main" "side" "footer";
+    grid-template-columns: 100vw; } }
+
+/*======================*/
 /*      Body reset      */
 /*======================*/
 body {
@@ -49,7 +57,6 @@ footer {
   overflow: hidden;
   text-align: center;
   bottom: 0;
-  width: 100vw;
   background-color: #703757;
   padding-top: 10px; }
 
@@ -173,13 +180,3 @@ table {
 /*======================*/
 .cursiva {
   font-style: italic; }
-
-/*======================*/
-/*        Queries       */
-/*======================*/
-@media (max-width: 320px) {
-  .grid {
-    display: flex;
-    flex-flow: column wrap; }
-  footer {
-    width: auto; } }

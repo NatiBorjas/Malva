@@ -3,6 +3,7 @@
 /*======================*/
 aside{
     @include flex;
+    align-items: stretch;
     grid-area: side;
     padding: 55px;
 }

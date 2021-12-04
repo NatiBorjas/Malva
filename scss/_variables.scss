@@ -1,13 +1,19 @@
-$border-tb: 2px solid black;
-$border-tb-in: 1px solid black;
+// Texto //
 $negrita: bold;
 $centrado: center;
+
+// Bordes //
+$border-tb: 2px solid black;
+$border-tb-in: 1px solid black;
+
+// Colores //
 $back-color: #ECC3C1;
 
+// Estructura //
 $item-flex: 1 1 auto;
 
+// Mixin //
 @mixin flex {
     display: flex;
     flex-flow: column wrap;
-    align-items: stretch;
 }
