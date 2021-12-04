@@ -4,15 +4,6 @@
 
 @media screen and (max-width: 320px) {
     .grid{
-<<<<<<< HEAD
-        grid-template-areas: 
-        "main"
-        "side"
-        "footer";
-        grid-template-columns: 100vw;
-        }
-    }
-=======
         display: grid;
         grid-area: auto;
     }
@@ -20,4 +11,3 @@
         width: auto;
     }
 }
->>>>>>> develop
