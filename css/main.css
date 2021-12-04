@@ -17,7 +17,7 @@ body {
 .grid {
   display: inline-grid;
   grid-template-areas: "main side" "main side" "main side" "footer footer";
-  grid-template-columns: 70vw 25vw;
+  grid-template-columns: 70vw 30vw;
   margin-top: 80px; }
 
 ul {
@@ -61,6 +61,9 @@ footer {
   width: 30px;
   text-decoration: none; }
 
+/*======================*/
+/*        Queries       */
+/*======================*/
 /*======================*/
 /*    Menu Navegador    */
 /*======================*/

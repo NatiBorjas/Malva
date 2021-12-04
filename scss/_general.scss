@@ -25,9 +25,10 @@ body{
     "main side"
     "main side"
     "footer footer";
-    grid-template-columns: 70vw 25vw;  
+    grid-template-columns: 70vw 30vw;  
     margin-top: 80px;
 }
+
 ul{
     list-style-type: none;
 }
@@ -71,3 +72,11 @@ footer{
     width: 30px;
     text-decoration: none;
 }
+
+/*======================*/
+/*        Queries       */
+/*======================*/
+
+// @media (min-width: 320px) {
+//     body
+// }
