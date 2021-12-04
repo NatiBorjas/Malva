@@ -3,7 +3,9 @@
 /*======================*/
 @media screen and (max-width: 320px) {
   .grid {
-    grid-template-areas: "main" "side" "footer";
+    grid-template-areas: "main"
+ "side"
+ "footer";
     grid-template-columns: 100vw;
     padding-bottom: 0px; }
   aside {
@@ -186,3 +188,10 @@ table {
 /*======================*/
 .cursiva {
   font-style: italic; }
+
+@media (max-width: 320px) {
+    .grid {
+      display: flex;
+      flex-flow: column wrap; }
+    footer {
+      width: auto; } }
