@@ -3,21 +3,20 @@
 /*======================*/
 .flex {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.item-tienda {
+    padding: 15px;
 }
 .lista-cursos{
-    width: 1000px;
     list-style-type: none;
-    display: flex;
-    flex-flow: row wrap;
     text-align: center;
-    justify-content: space-around;
 }
 .move{
     height: 200px;
     width: 200px;
-    padding: 5px;
+    padding: 10px;
     transition: all .2s ease-in-out;
     &:hover {
         transform: scale(120%);

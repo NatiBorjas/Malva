@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
 /*======================*/
 /*      Body reset      */
 /*======================*/
@@ -25,7 +29,7 @@ body{
     "main side"
     "footer footer";
     grid-template-columns: 70% 30%;  
-    margin-top: 80px;
+    margin-top: 90px;
 }
 
 ul{
@@ -56,7 +60,14 @@ h1 {
 }
 
 h1, h2, h3 {
-    padding: 10px;
+    padding: 15px;
+}
+
+.foto-articulo {
+    padding: 1px;
+    border-width: 5px;
+    border-style: double;
+    border-color: #5583A6;
 }
 
 /*======================*/
@@ -73,6 +84,12 @@ footer{
 }
 .redes-sociales{
     display: inline-block;
+    padding: 5px;
+    &:hover {
+        background-color: $back-color;
+        border-radius: 50%;
+        transform: scale(150%);
+    }
 }
 .logos{
     height: 30px;

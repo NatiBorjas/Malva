@@ -11,7 +11,9 @@ ol{
 }
 .item-menu-der{
     border: $border-tb-in;
-    padding: 5px 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: $back-color;
     border-collapse: collapse;
     flex: $item-flex;
